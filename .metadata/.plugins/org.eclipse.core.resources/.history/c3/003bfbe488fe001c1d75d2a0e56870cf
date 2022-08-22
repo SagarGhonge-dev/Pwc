@@ -1,0 +1,45 @@
+package multitheading;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Threedpool implements Runnable {
+
+	int count;
+
+	public Threedpool() {
+
+	}
+
+	@Override
+	public  void run() {
+		// TODO Auto-generated method stub
+		System.out.println("sagar");
+		System.out.println(count);
+		count++;
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	// ArrayBlockingQueue<Integer> arrayBlockingQueue=new
+	// ArrayBlockingQueue<Integer>(4);
+
+	public static void main(String[] args) {
+		ExecutorService e = Executors.newFixedThreadPool(4);
+
+		Runnable r = new Threedpool();
+
+		for (int i = 0; i < 8; i++) {
+
+			e.execute(r);
+
+		}
+		e.shutdown();
+
+	}
+
+}

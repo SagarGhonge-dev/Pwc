@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;linklist&apos; to &apos;Data Structure/src/linklist&apos;&#x0D;&#x0A;- Original project: &apos;Data Structure&apos;&#x0D;&#x0A;- Destination element: &apos;Data Structure/src/linklist&apos;&#x0D;&#x0A;- Original element: &apos;Data Structure/src/linklist&apos;" description="Copy package" destination="/src&lt;linklist" element1="/src&lt;linklist" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1657085374155" version="1.0"/>
+</session>

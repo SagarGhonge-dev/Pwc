@@ -1,0 +1,22 @@
+package practice;
+
+public class A {
+	static int z ;
+	public static void main(String[] args) {
+		int a[] = { 1, 2,8,3,7,5 };
+		
+		for (int i = 0; i < a.length - 1; i++) {
+
+		
+			if (a[i] > a[i + 1]) {
+
+				
+				
+				
+			}
+
+		}
+		
+	}
+
+}
